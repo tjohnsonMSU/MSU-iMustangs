@@ -23,13 +23,83 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="MSU Map" id="uJy-Vi-ULl"/>
+                    <navigationItem key="navigationItem" title="MSU Map" id="uJy-Vi-ULl">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Rij-6c-lyW"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="map" destination="tZZ-lB-s4X" id="kdm-tG-LN3"/>
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="4" y="-754"/>
+            <point key="canvasLocation" x="-930" y="-930"/>
+        </scene>
+        <scene sceneID="nXC-V4-l4K">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6lC-pT-of2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="aSE-za-DRh" customClass="directoryViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wqR-xx-LAM">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="gfg-aa-2Qe">
+                                <rect key="frame" x="0.0" y="-31" width="320" height="447"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Directory" id="69M-Qr-GkR"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="102" y="-915"/>
+        </scene>
+        <scene sceneID="cTU-Ye-vJX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auj-Vu-zrR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="iW9-La-ezh" customClass="eventsViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ktn-DI-4hS">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="fIC-SM-Rsf">
+                                <rect key="frame" x="0.0" y="-42" width="320" height="458"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Events" id="kas-Nt-eDR"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1392" y="-817"/>
+        </scene>
+        <scene sceneID="spw-dR-3Su">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TkO-gV-ykQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="4IS-J8-U0g" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="z9k-1Q-J3S">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iW9-La-ezh" kind="relationship" relationship="rootViewController" id="q3K-n7-GLZ"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="864" y="-817"/>
+        </scene>
+        <scene sceneID="5eo-PR-n2a">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqo-65-0pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="fwB-Gg-OUW" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="yyt-tw-zSi">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aSE-za-DRh" kind="relationship" relationship="rootViewController" id="Shg-wO-FWT"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-388" y="-907"/>
         </scene>
         <scene sceneID="gbw-mC-pwf">
             <objects>
@@ -43,7 +113,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-532" y="-754"/>
+            <point key="canvasLocation" x="-1408" y="-920"/>
         </scene>
         <scene sceneID="5">
             <objects>
@@ -85,6 +155,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="iW9-La-ezh" kind="push" id="4BG-wd-N4v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Var-k1-jHz">
                                 <rect key="frame" x="220" y="117" width="80" height="80"/>
@@ -98,6 +171,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="LtY-7W-uhS" kind="push" id="6gb-2s-b6Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HF7-fn-5qh">
                                 <rect key="frame" x="20" y="264" width="80" height="80"/>
@@ -111,6 +187,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="aSE-za-DRh" kind="push" id="QZs-SY-vYL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bls-9w-29C">
                                 <rect key="frame" x="120" y="264" width="80" height="80"/>
@@ -124,6 +203,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="mhg-PV-sNQ" kind="push" id="4vg-Dn-6Wc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DgJ-ID-UnL">
                                 <rect key="frame" x="220" y="264" width="80" height="80"/>
@@ -137,6 +219,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Yxt-Nu-izM" kind="push" id="wxy-W2-tqU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -145,6 +230,108 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-714" y="13"/>
+        </scene>
+        <scene sceneID="ce9-Aa-Z7n">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P7K-cb-xvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Yxt-Nu-izM" customClass="greekViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nlB-8a-otn">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="f0z-Y6-Gqf">
+                                <rect key="frame" x="0.0" y="-42" width="320" height="458"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Greek Life" id="vMm-ma-dw0"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-930" y="1083"/>
+        </scene>
+        <scene sceneID="hDg-R6-Cny">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Abb-Zi-mgH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="LtY-7W-uhS" customClass="bandViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9F9-Za-70H">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="AKP-6J-Ury">
+                                <rect key="frame" x="0.0" y="-45" width="320" height="461"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="MSU Band" id="tUo-0g-xWx"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1102" y="1129"/>
+        </scene>
+        <scene sceneID="71V-DP-SbR">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xTv-Hz-t3a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="ImE-3B-Pdg" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="FWL-oM-Uak">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LtY-7W-uhS" kind="relationship" relationship="rootViewController" id="yDH-Ok-OfS"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="660" y="1129"/>
+        </scene>
+        <scene sceneID="alJ-uv-SdF">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7A-hw-vY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="mhg-PV-sNQ" customClass="featuresViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FyG-4u-0Tg">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="5bQ-SV-5Pe">
+                                <rect key="frame" x="0.0" y="-44" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Feature Suggestion" id="ZxI-Cu-5nI"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="217" y="1213"/>
+        </scene>
+        <scene sceneID="vAg-I3-wJj">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bF1-C0-zfH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="rEp-On-RKR" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="QQQ-L6-VLh">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mhg-PV-sNQ" kind="relationship" relationship="rootViewController" id="BK9-ao-Xj0"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-311" y="1213"/>
+        </scene>
+        <scene sceneID="E5Z-90-NOC">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oji-50-7fO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController definesPresentationContext="YES" id="6q2-xf-ory" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="38R-l2-qcf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Yxt-Nu-izM" kind="relationship" relationship="rootViewController" id="Xaz-kj-TlH"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-1532" y="1059"/>
         </scene>
         <scene sceneID="ec7-d6-tX1">
             <objects>
@@ -169,11 +356,27 @@
         <image name="eventsIcon.jpg" width="131" height="131"/>
         <image name="greekIcon.jpg" width="131" height="131"/>
         <image name="iMustangsHomeBG.jpg" width="640" height="920"/>
+        <image name="mainBg.jpg" width="640" height="920"/>
         <image name="mapIcon.jpg" width="131" height="130"/>
         <image name="msuBandIcon.jpg" width="131" height="131"/>
         <image name="suggestionIcon.jpg" width="131" height="131"/>
     </resources>
     <classes>
+        <class className="bandViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/bandViewController.h"/>
+        </class>
+        <class className="directoryViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/directoryViewController.h"/>
+        </class>
+        <class className="eventsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/eventsViewController.h"/>
+        </class>
+        <class className="featuresViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/featuresViewController.h"/>
+        </class>
+        <class className="greekViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/greekViewController.h"/>
+        </class>
         <class className="mapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/mapViewController.h"/>
             <relationships>
@@ -190,6 +393,11 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="6gb-2s-b6Q"/>
+        <segue reference="QZs-SY-vYL"/>
+        <segue reference="4vg-Dn-6Wc"/>
         <segue reference="Juk-qQ-eMq"/>
+        <segue reference="4BG-wd-N4v"/>
+        <segue reference="wxy-W2-tqU"/>
     </inferredMetricsTieBreakers>
 </document>

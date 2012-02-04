@@ -33,6 +33,11 @@
 		D19817A514DCDF6100B2B8EB /* msuBandIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19817A014DCDF6100B2B8EB /* msuBandIcon.jpg */; };
 		D19817A614DCDF6100B2B8EB /* suggestionIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19817A114DCDF6100B2B8EB /* suggestionIcon.jpg */; };
 		D19817AF14DCEBF800B2B8EB /* mainBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D19817AE14DCEBF800B2B8EB /* mainBg.jpg */; };
+		D1AEA23F14DDEA13000062BA /* eventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA23E14DDEA13000062BA /* eventsViewController.m */; };
+		D1AEA24314DDEA2E000062BA /* bandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24214DDEA2E000062BA /* bandViewController.m */; };
+		D1AEA24614DDEA42000062BA /* featuresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24514DDEA42000062BA /* featuresViewController.m */; };
+		D1AEA24914DDEA58000062BA /* directoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24814DDEA57000062BA /* directoryViewController.m */; };
+		D1AEA24C14DDEA75000062BA /* greekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24B14DDEA75000062BA /* greekViewController.m */; };
 		D1B52F8814DD2DFE00D79EE2 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = D1B52F8714DD2DFE00D79EE2 /* Tiles */; };
 		D1EDCE8414DD2FE0008B624A /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EDCE8314DD2FE0008B624A /* mapViewController.m */; };
 /* End PBXBuildFile section */
@@ -82,6 +87,16 @@
 		D19817A014DCDF6100B2B8EB /* msuBandIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = msuBandIcon.jpg; sourceTree = "<group>"; };
 		D19817A114DCDF6100B2B8EB /* suggestionIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = suggestionIcon.jpg; sourceTree = "<group>"; };
 		D19817AE14DCEBF800B2B8EB /* mainBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainBg.jpg; sourceTree = "<group>"; };
+		D1AEA23D14DDEA13000062BA /* eventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventsViewController.h; sourceTree = "<group>"; };
+		D1AEA23E14DDEA13000062BA /* eventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eventsViewController.m; sourceTree = "<group>"; };
+		D1AEA24114DDEA2E000062BA /* bandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bandViewController.h; sourceTree = "<group>"; };
+		D1AEA24214DDEA2E000062BA /* bandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bandViewController.m; sourceTree = "<group>"; };
+		D1AEA24414DDEA42000062BA /* featuresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = featuresViewController.h; sourceTree = "<group>"; };
+		D1AEA24514DDEA42000062BA /* featuresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = featuresViewController.m; sourceTree = "<group>"; };
+		D1AEA24714DDEA57000062BA /* directoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = directoryViewController.h; sourceTree = "<group>"; };
+		D1AEA24814DDEA57000062BA /* directoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directoryViewController.m; sourceTree = "<group>"; };
+		D1AEA24A14DDEA75000062BA /* greekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greekViewController.h; sourceTree = "<group>"; };
+		D1AEA24B14DDEA75000062BA /* greekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greekViewController.m; sourceTree = "<group>"; };
 		D1B52F8714DD2DFE00D79EE2 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		D1EDCE8214DD2FE0008B624A /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
 		D1EDCE8314DD2FE0008B624A /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
@@ -225,6 +240,16 @@
 				D13DA34F14DD409000C3585D /* TileOverlayView.m */,
 				D1EDCE8214DD2FE0008B624A /* mapViewController.h */,
 				D1EDCE8314DD2FE0008B624A /* mapViewController.m */,
+				D1AEA23D14DDEA13000062BA /* eventsViewController.h */,
+				D1AEA23E14DDEA13000062BA /* eventsViewController.m */,
+				D1AEA24114DDEA2E000062BA /* bandViewController.h */,
+				D1AEA24214DDEA2E000062BA /* bandViewController.m */,
+				D1AEA24414DDEA42000062BA /* featuresViewController.h */,
+				D1AEA24514DDEA42000062BA /* featuresViewController.m */,
+				D1AEA24714DDEA57000062BA /* directoryViewController.h */,
+				D1AEA24814DDEA57000062BA /* directoryViewController.m */,
+				D1AEA24A14DDEA75000062BA /* greekViewController.h */,
+				D1AEA24B14DDEA75000062BA /* greekViewController.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -350,6 +375,11 @@
 				D1EDCE8414DD2FE0008B624A /* mapViewController.m in Sources */,
 				D13DA35014DD409000C3585D /* TileOverlay.m in Sources */,
 				D13DA35114DD409000C3585D /* TileOverlayView.m in Sources */,
+				D1AEA23F14DDEA13000062BA /* eventsViewController.m in Sources */,
+				D1AEA24314DDEA2E000062BA /* bandViewController.m in Sources */,
+				D1AEA24614DDEA42000062BA /* featuresViewController.m in Sources */,
+				D1AEA24914DDEA58000062BA /* directoryViewController.m in Sources */,
+				D1AEA24C14DDEA75000062BA /* greekViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
