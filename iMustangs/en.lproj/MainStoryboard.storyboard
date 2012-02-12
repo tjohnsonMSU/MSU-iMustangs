@@ -99,7 +99,7 @@
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-388" y="-907"/>
+            <point key="canvasLocation" x="-440" y="-881"/>
         </scene>
         <scene sceneID="gbw-mC-pwf">
             <objects>
@@ -339,8 +339,8 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Shg-wO-FWT"/>
         <segue reference="4vg-Dn-6Wc"/>
-        <segue reference="QZs-SY-vYL"/>
         <segue reference="Juk-qQ-eMq"/>
         <segue reference="4BG-wd-N4v"/>
         <segue reference="6gb-2s-b6Q"/>
