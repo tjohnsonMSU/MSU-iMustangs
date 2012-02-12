@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11D50b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="qJX-f2-IDY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1938" systemVersion="11C74" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="qJX-f2-IDY">
     <dependencies>
         <development defaultVersion="4200" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="933"/>
@@ -132,7 +132,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="mapIcon.jpg">
+                                <state key="normal" image="103-map@2x.png">
                                     <color key="titleColor" red="0.19607843137254902" green="0.30980392156862746" blue="0.52156862745098043" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -148,7 +148,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="eventsIcon.jpg">
+                                <state key="normal" image="83-calendar@2x.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -164,7 +164,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="msuBandIcon.jpg">
+                                <state key="normal" image="65-note@2x.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -176,11 +176,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HF7-fn-5qh">
-                                <rect key="frame" x="20" y="264" width="80" height="80"/>
+                                <rect key="frame" x="70" y="264" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="directoryIcon.jpg">
+                                <state key="normal" image="112-group@2x.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -192,11 +192,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Bls-9w-29C">
-                                <rect key="frame" x="120" y="264" width="80" height="80"/>
+                                <rect key="frame" x="170" y="264" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" size="button"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="suggestionIcon.jpg">
+                                <state key="normal" image="08-chat@2x.png">
                                     <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -207,22 +207,6 @@
                                     <segue destination="mhg-PV-sNQ" kind="push" id="4vg-Dn-6Wc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="bottomLeft" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DgJ-ID-UnL">
-                                <rect key="frame" x="220" y="264" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" size="button"/>
-                                <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" backgroundImage="greekIcon.jpg">
-                                    <color key="titleColor" red="0.1960784314" green="0.30980392159999998" blue="0.52156862749999999" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Yxt-Nu-izM" kind="push" id="wxy-W2-tqU"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -230,26 +214,6 @@
                 </viewController>
             </objects>
             <point key="canvasLocation" x="-714" y="13"/>
-        </scene>
-        <scene sceneID="ce9-Aa-Z7n">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P7K-cb-xvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <viewController id="Yxt-Nu-izM" customClass="greekViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nlB-8a-otn">
-                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="mainBg.jpg" id="f0z-Y6-Gqf">
-                                <rect key="frame" x="0.0" y="-42" width="320" height="458"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Greek Life" id="vMm-ma-dw0"/>
-                </viewController>
-            </objects>
-            <point key="canvasLocation" x="-930" y="1083"/>
         </scene>
         <scene sceneID="hDg-R6-Cny">
             <objects>
@@ -319,20 +283,6 @@
             </objects>
             <point key="canvasLocation" x="-311" y="1213"/>
         </scene>
-        <scene sceneID="E5Z-90-NOC">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oji-50-7fO" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <navigationController definesPresentationContext="YES" id="6q2-xf-ory" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="38R-l2-qcf">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="Yxt-Nu-izM" kind="relationship" relationship="rootViewController" id="Xaz-kj-TlH"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="-1532" y="1059"/>
-        </scene>
         <scene sceneID="ec7-d6-tX1">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KH5-7t-Axl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -352,14 +302,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="directoryIcon.jpg" width="131" height="131"/>
-        <image name="eventsIcon.jpg" width="131" height="131"/>
-        <image name="greekIcon.jpg" width="131" height="131"/>
+        <image name="08-chat@2x.png" width="48" height="44"/>
+        <image name="103-map@2x.png" width="52" height="42"/>
+        <image name="112-group@2x.png" width="64" height="42"/>
+        <image name="65-note@2x.png" width="30" height="48"/>
+        <image name="83-calendar@2x.png" width="46" height="50"/>
         <image name="iMustangsHomeBG.jpg" width="640" height="920"/>
         <image name="mainBg.jpg" width="640" height="920"/>
-        <image name="mapIcon.jpg" width="131" height="130"/>
-        <image name="msuBandIcon.jpg" width="131" height="131"/>
-        <image name="suggestionIcon.jpg" width="131" height="131"/>
     </resources>
     <classes>
         <class className="bandViewController" superclassName="UIViewController">
@@ -373,9 +322,6 @@
         </class>
         <class className="featuresViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/featuresViewController.h"/>
-        </class>
-        <class className="greekViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/greekViewController.h"/>
         </class>
         <class className="mapViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/mapViewController.h"/>
@@ -393,11 +339,10 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="6gb-2s-b6Q"/>
-        <segue reference="QZs-SY-vYL"/>
         <segue reference="4vg-Dn-6Wc"/>
+        <segue reference="QZs-SY-vYL"/>
         <segue reference="Juk-qQ-eMq"/>
         <segue reference="4BG-wd-N4v"/>
-        <segue reference="wxy-W2-tqU"/>
+        <segue reference="6gb-2s-b6Q"/>
     </inferredMetricsTieBreakers>
 </document>
