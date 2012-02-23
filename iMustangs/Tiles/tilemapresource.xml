@@ -3,8 +3,8 @@
 	  <Title>msuMap.vrt</Title>
 	  <Abstract></Abstract>
 	  <SRS>EPSG:900913</SRS>
-	  <BoundingBox minx="33.86786722437398" miny="-98.52653278637501" maxx="33.87797806120000" maxy="-98.51833094132144"/>
-	  <Origin x="33.86786722437398" y="-98.52653278637501"/>
+	  <BoundingBox minx="33.86786737274802" miny="-98.52653278637497" maxx="33.87797806124502" maxy="-98.51832951177244"/>
+	  <Origin x="33.86786737274802" y="-98.52653278637497"/>
 	  <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
 	  <TileSets profile="mercator">
 	    <TileSet href="14" units-per-pixel="9.55462853393555" order="14"/>

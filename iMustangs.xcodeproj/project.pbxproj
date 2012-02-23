@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7512CF6614F5F78900359035 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = 7512CF6514F5F78900359035 /* Tiles */; };
 		754F496E14E7B3030045FBAD /* 65-note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754F496D14E7B3030045FBAD /* 65-note@2x.png */; };
 		754F497114E7B3150045FBAD /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 754F497014E7B3150045FBAD /* 83-calendar@2x.png */; };
 		754F497314E7B31F0045FBAD /* 65-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 754F497214E7B31F0045FBAD /* 65-note.png */; };
@@ -28,11 +29,6 @@
 		D198177014DCDAB700B2B8EB /* msuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D198176F14DCDAB700B2B8EB /* msuAppDelegate.m */; };
 		D198177314DCDAB700B2B8EB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D198177114DCDAB700B2B8EB /* MainStoryboard.storyboard */; };
 		D198177614DCDAB700B2B8EB /* msuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D198177514DCDAB700B2B8EB /* msuViewController.m */; };
-		D198177E14DCDAB700B2B8EB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198177D14DCDAB700B2B8EB /* SenTestingKit.framework */; };
-		D198177F14DCDAB700B2B8EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198175F14DCDAB700B2B8EB /* UIKit.framework */; };
-		D198178014DCDAB700B2B8EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198176114DCDAB700B2B8EB /* Foundation.framework */; };
-		D198178814DCDAB700B2B8EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D198178614DCDAB700B2B8EB /* InfoPlist.strings */; };
-		D198178B14DCDAB700B2B8EB /* iMustangsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D198178A14DCDAB700B2B8EB /* iMustangsTests.m */; };
 		D198179514DCDACA00B2B8EB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198179414DCDACA00B2B8EB /* CoreLocation.framework */; };
 		D198179714DCDAD500B2B8EB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D198179614DCDAD500B2B8EB /* MapKit.framework */; };
 		D198179A14DCDC9B00B2B8EB /* iMustangsHomeBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D198179914DCDC9B00B2B8EB /* iMustangsHomeBG.jpg */; };
@@ -48,21 +44,11 @@
 		D1AEA24614DDEA42000062BA /* featuresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24514DDEA42000062BA /* featuresViewController.m */; };
 		D1AEA24914DDEA58000062BA /* directoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24814DDEA57000062BA /* directoryViewController.m */; };
 		D1AEA24C14DDEA75000062BA /* greekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1AEA24B14DDEA75000062BA /* greekViewController.m */; };
-		D1B52F8814DD2DFE00D79EE2 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = D1B52F8714DD2DFE00D79EE2 /* Tiles */; };
 		D1EDCE8414DD2FE0008B624A /* mapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EDCE8314DD2FE0008B624A /* mapViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D198178114DCDAB700B2B8EB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D198175214DCDAB600B2B8EB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D198175A14DCDAB700B2B8EB;
-			remoteInfo = iMustangs;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		7512CF6514F5F78900359035 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		754F496D14E7B3030045FBAD /* 65-note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note@2x.png"; sourceTree = "<group>"; };
 		754F497014E7B3150045FBAD /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar@2x.png"; sourceTree = "<group>"; };
 		754F497214E7B31F0045FBAD /* 65-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note.png"; sourceTree = "<group>"; };
@@ -91,7 +77,6 @@
 		D198177214DCDAB700B2B8EB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		D198177414DCDAB700B2B8EB /* msuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = msuViewController.h; sourceTree = "<group>"; };
 		D198177514DCDAB700B2B8EB /* msuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = msuViewController.m; sourceTree = "<group>"; };
-		D198177C14DCDAB700B2B8EB /* iMustangsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMustangsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D198177D14DCDAB700B2B8EB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		D198178514DCDAB700B2B8EB /* iMustangsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMustangsTests-Info.plist"; sourceTree = "<group>"; };
 		D198178714DCDAB700B2B8EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -117,7 +102,6 @@
 		D1AEA24814DDEA57000062BA /* directoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = directoryViewController.m; sourceTree = "<group>"; };
 		D1AEA24A14DDEA75000062BA /* greekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = greekViewController.h; sourceTree = "<group>"; };
 		D1AEA24B14DDEA75000062BA /* greekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = greekViewController.m; sourceTree = "<group>"; };
-		D1B52F8714DD2DFE00D79EE2 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		D1EDCE8214DD2FE0008B624A /* mapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapViewController.h; sourceTree = "<group>"; };
 		D1EDCE8314DD2FE0008B624A /* mapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -136,23 +120,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D198177814DCDAB700B2B8EB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D198177E14DCDAB700B2B8EB /* SenTestingKit.framework in Frameworks */,
-				D198177F14DCDAB700B2B8EB /* UIKit.framework in Frameworks */,
-				D198178014DCDAB700B2B8EB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D18E32DD14DDD45600824BA3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D1B52F8714DD2DFE00D79EE2 /* Tiles */,
+				7512CF6514F5F78900359035 /* Tiles */,
+				D198179814DCDC8D00B2B8EB /* Images */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -171,7 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				D198175B14DCDAB700B2B8EB /* iMustangs.app */,
-				D198177C14DCDAB700B2B8EB /* iMustangsTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,7 +169,6 @@
 			children = (
 				D18E32DD14DDD45600824BA3 /* Resources */,
 				D19817A714DCE7C200B2B8EB /* Classes */,
-				D198179814DCDC8D00B2B8EB /* Images */,
 				D198176E14DCDAB700B2B8EB /* msuAppDelegate.h */,
 				D198176F14DCDAB700B2B8EB /* msuAppDelegate.m */,
 				D198177114DCDAB700B2B8EB /* MainStoryboard.storyboard */,
@@ -304,25 +277,6 @@
 			productReference = D198175B14DCDAB700B2B8EB /* iMustangs.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D198177B14DCDAB700B2B8EB /* iMustangsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D198179114DCDAB700B2B8EB /* Build configuration list for PBXNativeTarget "iMustangsTests" */;
-			buildPhases = (
-				D198177714DCDAB700B2B8EB /* Sources */,
-				D198177814DCDAB700B2B8EB /* Frameworks */,
-				D198177914DCDAB700B2B8EB /* Resources */,
-				D198177A14DCDAB700B2B8EB /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D198178214DCDAB700B2B8EB /* PBXTargetDependency */,
-			);
-			name = iMustangsTests;
-			productName = iMustangsTests;
-			productReference = D198177C14DCDAB700B2B8EB /* iMustangsTests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -344,7 +298,6 @@
 			projectRoot = "";
 			targets = (
 				D198175A14DCDAB700B2B8EB /* iMustangs */,
-				D198177B14DCDAB700B2B8EB /* iMustangsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -364,7 +317,6 @@
 				D19817A514DCDF6100B2B8EB /* msuBandIcon.jpg in Resources */,
 				D19817A614DCDF6100B2B8EB /* suggestionIcon.jpg in Resources */,
 				D19817AF14DCEBF800B2B8EB /* mainBg.jpg in Resources */,
-				D1B52F8814DD2DFE00D79EE2 /* Tiles in Resources */,
 				754F496E14E7B3030045FBAD /* 65-note@2x.png in Resources */,
 				754F497114E7B3150045FBAD /* 83-calendar@2x.png in Resources */,
 				754F497314E7B31F0045FBAD /* 65-note.png in Resources */,
@@ -375,34 +327,11 @@
 				754F497D14E7B3600045FBAD /* 112-group@2x.png in Resources */,
 				754F498414E7B3BC0045FBAD /* 08-chat.png in Resources */,
 				754F498514E7B3BC0045FBAD /* 08-chat@2x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D198177914DCDAB700B2B8EB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D198178814DCDAB700B2B8EB /* InfoPlist.strings in Resources */,
+				7512CF6614F5F78900359035 /* Tiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D198177A14DCDAB700B2B8EB /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D198175714DCDAB700B2B8EB /* Sources */ = {
@@ -423,23 +352,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D198177714DCDAB700B2B8EB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D198178B14DCDAB700B2B8EB /* iMustangsTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D198178214DCDAB700B2B8EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D198175A14DCDAB700B2B8EB /* iMustangs */;
-			targetProxy = D198178114DCDAB700B2B8EB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D198176814DCDAB700B2B8EB /* InfoPlist.strings */ = {
@@ -515,10 +428,14 @@
 		D198178F14DCDAB700B2B8EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMustangs/iMustangs-Prefix.pch";
 				INFOPLIST_FILE = "iMustangs/iMustangs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -526,45 +443,15 @@
 		D198179014DCDAB700B2B8EB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iMustangs/iMustangs-Prefix.pch";
 				INFOPLIST_FILE = "iMustangs/iMustangs-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D198179214DCDAB700B2B8EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMustangs.app/iMustangs";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iMustangs/iMustangs-Prefix.pch";
-				INFOPLIST_FILE = "iMustangsTests/iMustangsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		D198179314DCDAB700B2B8EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iMustangs.app/iMustangs";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "iMustangs/iMustangs-Prefix.pch";
-				INFOPLIST_FILE = "iMustangsTests/iMustangsTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -585,15 +472,6 @@
 			buildConfigurations = (
 				D198178F14DCDAB700B2B8EB /* Debug */,
 				D198179014DCDAB700B2B8EB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D198179114DCDAB700B2B8EB /* Build configuration list for PBXNativeTarget "iMustangsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D198179214DCDAB700B2B8EB /* Debug */,
-				D198179314DCDAB700B2B8EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
