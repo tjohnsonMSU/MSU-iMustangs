@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface featuresViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIWebView *webView;
 
 @end

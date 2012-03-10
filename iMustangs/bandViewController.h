@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface bandViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UIWebView *webView;
 
 @end

@@ -20,8 +20,48 @@
     [super dealloc];
 }
 
+-(void)customizeAppearance
+{
+    // Create resizable images
+    UIImage *navBg = [[UIImage imageNamed:@"navBg"]
+                                resizableImageWithCapInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
+    
+    
+    // Set the background image for *all* UINavigationBars
+    [[UINavigationBar appearance] setBackgroundImage:navBg
+                                       forBarMetrics:UIBarMetricsDefault];
+    
+    // Customize the title text for *all* UINavigationBars
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor colorWithRed:255.0/255.0 green:255.0/255.0 blue:255.0/255.0 alpha:1.0],
+      UITextAttributeTextColor,
+      [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],
+      UITextAttributeTextShadowColor,
+      [NSValue valueWithUIOffset:UIOffsetMake(0, -1)],
+      UITextAttributeTextShadowOffset,
+      [UIFont fontWithName:@"Arial-Bold" size:0.0],
+      UITextAttributeFont,
+      nil]];
+    
+    UIImage *buttonBg = [[UIImage imageNamed:@"buttonBg"] 
+                         resizableImageWithCapInsets:UIEdgeInsetsMake(0, 5, 0, 5)];
+   
+    [[UIBarButtonItem appearance] setBackgroundImage:buttonBg forState:UIControlStateNormal 
+        barMetrics:UIBarMetricsDefault];
+   
+        
+    UIImage *backButton = [[UIImage imageNamed:@"backButton"] 
+                             resizableImageWithCapInsets:UIEdgeInsetsMake(0, 13, 0, 5)];
+    
+    [[UIBarButtonItem appearance] setBackButtonBackgroundImage:backButton
+                                                      forState:UIControlStateNormal barMetrics:UIBarMetricsDefault];
+  
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [self customizeAppearance];
     [window addSubview:viewController.view];
     [window makeKeyAndVisible];
     // Override point for customization after application launch.

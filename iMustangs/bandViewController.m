@@ -9,6 +9,7 @@
 #import "bandViewController.h"
 
 @implementation bandViewController
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,6 +22,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.youtube.com/embed/XeIKnBDN4To"]]];
+    
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     [super viewWillAppear:animated];
 }
@@ -52,6 +55,7 @@
 
 - (void)viewDidUnload
 {
+    [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -63,4 +67,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)dealloc {
+    [webView release];
+    [super dealloc];
+}
 @end

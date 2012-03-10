@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface mapOptionViewController : UIViewController
+@interface mapOptionViewController : UIViewController <UIPickerViewDelegate, UIPickerViewDataSource>{
+    NSArray *pickerViewArray;
+}
+@property (retain, nonatomic) IBOutlet UIPickerView *picker;
+@property (retain,nonatomic) IBOutlet NSArray *pickerViewArray;
 
 @end

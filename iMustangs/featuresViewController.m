@@ -9,6 +9,7 @@
 #import "featuresViewController.h"
 
 @implementation featuresViewController
+@synthesize webView;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -21,6 +22,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://docs.google.com/spreadsheet/embeddedform?formkey=dG5qR3F5LW5EWFBnamtqUjBQZ1dHS0E6MQ"]]];
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     [super viewWillAppear:animated];
 }
@@ -52,6 +54,7 @@
 
 - (void)viewDidUnload
 {
+    [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -63,4 +66,8 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (void)dealloc {
+    [webView release];
+    [super dealloc];
+}
 @end

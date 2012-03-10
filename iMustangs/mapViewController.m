@@ -16,7 +16,9 @@
 {
     NSString *tileDirectory = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Tiles"];
     TileOverlay *overlay = [[TileOverlay alloc] initWithTileDirectory:tileDirectory];
+    
     [map addOverlay:overlay];
+    
     
     map.mapType = MKMapTypeSatellite;
     MKCoordinateRegion CSC;
