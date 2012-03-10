@@ -22,8 +22,9 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    /*
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.youtube.com/embed/XeIKnBDN4To"]]];
-    
+    */
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     [super viewWillAppear:animated];
 }
@@ -53,6 +54,8 @@
 }
 */
 
+
+
 - (void)viewDidUnload
 {
     [self setWebView:nil];
@@ -61,8 +64,23 @@
     // e.g. self.myOutlet = nil;
 }
 
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+-(void)viewDidLoad
 {
+    [webSite addSubview:activityIndicator];
+    [webSite loadRequest:[NSURLRequest requestWithURL: [NSURL URLWithString:@"http://www.youtube.com/embed/XeIKnBDN4To"]]];
+    timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0) target:self selector:@selector(loading) userInfo:nil repeats:YES];
+}
+
+-(void)loading
+{
+    if(!webSite.loading)
+        [activityIndicator stopAnimating];
+    else 
+        [activityIndicator startAnimating];
+}
+
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{       
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }

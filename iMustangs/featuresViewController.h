@@ -8,7 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface featuresViewController : UIViewController
+
+
+@interface featuresViewController : UIViewController{
+    IBOutlet UIActivityIndicatorView *activityIndicator;
+    IBOutlet UIWebView *webSite;
+    NSTimer *timer; 
+}
+
 @property (retain, nonatomic) IBOutlet UIWebView *webView;
 
 @end

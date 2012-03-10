@@ -22,7 +22,9 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    /*
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://docs.google.com/spreadsheet/embeddedform?formkey=dG5qR3F5LW5EWFBnamtqUjBQZ1dHS0E6MQ"]]];
+     */
     [self.navigationController setNavigationBarHidden:NO animated:animated];
     [super viewWillAppear:animated];
 }
@@ -52,12 +54,28 @@
 }
 */
 
+-(void)viewDidLoad
+{
+    [webSite addSubview:activityIndicator];
+    [webSite loadRequest:[NSURLRequest requestWithURL: [NSURL URLWithString:@"https://docs.google.com/spreadsheet/embeddedform?formkey=dG5qR3F5LW5EWFBnamtqUjBQZ1dHS0E6MQ"]]];
+    timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0) target:self selector:@selector(loading) userInfo:nil repeats:YES];
+}
+
 - (void)viewDidUnload
 {
     [self setWebView:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+-(void)loading
+{
+    if(!webSite.loading)
+        [activityIndicator stopAnimating];
+    else {
+        [activityIndicator startAnimating];
+    }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation

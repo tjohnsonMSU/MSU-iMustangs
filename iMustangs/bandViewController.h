@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface bandViewController : UIViewController
+@interface bandViewController : UIViewController{
+        IBOutlet UIActivityIndicatorView *activityIndicator;
+        IBOutlet UIWebView *webSite;
+        NSTimer *timer; 
+}
 @property (retain, nonatomic) IBOutlet UIWebView *webView;
 
 @end

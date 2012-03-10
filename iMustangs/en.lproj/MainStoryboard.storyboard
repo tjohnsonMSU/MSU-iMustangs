@@ -292,11 +292,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="gid-z8-AGH">
+                                <rect key="frame" x="142" y="189" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" cocoaTouchSystemColor="darkTextColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="MSU Band" id="tUo-0g-xWx"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="gid-z8-AGH" id="in8-x5-wrJ"/>
+                        <outlet property="webSite" destination="N4Q-Hw-UXy" id="cQh-p3-4O2"/>
                         <outlet property="webView" destination="N4Q-Hw-UXy" id="JXd-Pj-fTi"/>
                     </connections>
                 </viewController>
@@ -318,7 +325,7 @@
             </objects>
             <point key="canvasLocation" x="660" y="1129"/>
         </scene>
-        <!--Features View Controller - Feature Suggestion-->
+        <!--Features View Controller - Feature Suggestions-->
         <scene sceneID="alJ-uv-SdF">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q7A-hw-vY1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -336,11 +343,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="whiteLarge" id="9Hk-Y2-iQ7">
+                                <rect key="frame" x="143" y="188" width="37" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" cocoaTouchSystemColor="darkTextColor"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Feature Suggestion" id="ZxI-Cu-5nI"/>
+                    <navigationItem key="navigationItem" title="Feature Suggestions" id="ZxI-Cu-5nI"/>
                     <connections>
+                        <outlet property="activityIndicator" destination="9Hk-Y2-iQ7" id="Y34-4n-WeD"/>
+                        <outlet property="webSite" destination="FHY-pn-IXo" id="agV-bd-w48"/>
                         <outlet property="webView" destination="FHY-pn-IXo" id="v9Y-OR-r2k"/>
                     </connections>
                 </viewController>
@@ -390,6 +404,46 @@
         <image name="iMustangsHomeBG.jpg" width="640" height="920"/>
         <image name="mainBg.jpg" width="640" height="920"/>
     </resources>
+    <classes>
+        <class className="bandViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/bandViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="webSite" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="directoryViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/directoryViewController.h"/>
+        </class>
+        <class className="eventsViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/eventsViewController.h"/>
+        </class>
+        <class className="featuresViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/featuresViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="activityIndicator" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="webSite" candidateClass="UIWebView"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="mapOptionViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/mapOptionViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="picker" candidateClass="UIPickerView"/>
+                <relationship kind="outlet" name="pickerViewArray" candidateClass="NSArray"/>
+            </relationships>
+        </class>
+        <class className="mapViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/mapViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="map" candidateClass="MKMapView"/>
+            </relationships>
+        </class>
+        <class className="msuViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/msuViewController.h"/>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
