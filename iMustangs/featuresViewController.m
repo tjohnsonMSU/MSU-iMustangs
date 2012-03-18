@@ -59,6 +59,7 @@
     [webSite addSubview:activityIndicator];
     [webSite loadRequest:[NSURLRequest requestWithURL: [NSURL URLWithString:@"https://docs.google.com/spreadsheet/embeddedform?formkey=dG5qR3F5LW5EWFBnamtqUjBQZ1dHS0E6MQ"]]];
     timer = [NSTimer scheduledTimerWithTimeInterval:(1.0/2.0) target:self selector:@selector(loading) userInfo:nil repeats:YES];
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload

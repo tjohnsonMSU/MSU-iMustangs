@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		750C72CE150BD684009806BA /* MustangsIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C72CD150BD684009806BA /* MustangsIconSmall.png */; };
 		750C72D0150BD692009806BA /* MustangsIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 750C72CF150BD692009806BA /* MustangsIconLarge.png */; };
-		7512CF6614F5F78900359035 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = 7512CF6514F5F78900359035 /* Tiles */; };
 		7548BCE5150987E8000EF713 /* 08-chatWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7548BCE4150987E8000EF713 /* 08-chatWhite@2x.png */; };
 		7548BCEA1509892B000EF713 /* 112-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7548BCE61509892B000EF713 /* 112-group@2x.png */; };
 		7548BCEB1509892B000EF713 /* 65-note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7548BCE71509892B000EF713 /* 65-note@2x.png */; };
 		7548BCEC1509892B000EF713 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7548BCE81509892B000EF713 /* 83-calendar@2x.png */; };
 		7548BCED1509892B000EF713 /* 103-mapWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7548BCE91509892B000EF713 /* 103-mapWhite@2x.png */; };
 		759DFA7F14FADD340045902A /* mapOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 759DFA7E14FADD340045902A /* mapOptionViewController.m */; };
+		75C6FDD3151590AF00EDC6EC /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = 75C6FDD2151590AF00EDC6EC /* Tiles */; };
 		75E4EDBF150AB28600A93225 /* navBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E4EDBE150AB28600A93225 /* navBg@2x.png */; };
 		75E4EDC7150AB82B00A93225 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E4EDC6150AB82B00A93225 /* backButton@2x.png */; };
 		75E4EDC9150AB85D00A93225 /* buttonBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E4EDC8150AB85D00A93225 /* buttonBg@2x.png */; };
@@ -45,7 +45,6 @@
 /* Begin PBXFileReference section */
 		750C72CD150BD684009806BA /* MustangsIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MustangsIconSmall.png; path = ../MustangsIconSmall.png; sourceTree = "<group>"; };
 		750C72CF150BD692009806BA /* MustangsIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MustangsIconLarge.png; path = ../MustangsIconLarge.png; sourceTree = "<group>"; };
-		7512CF6514F5F78900359035 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		7548BCE4150987E8000EF713 /* 08-chatWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chatWhite@2x.png"; sourceTree = "<group>"; };
 		7548BCE61509892B000EF713 /* 112-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group@2x.png"; sourceTree = "<group>"; };
 		7548BCE71509892B000EF713 /* 65-note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note@2x.png"; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		7548BCE91509892B000EF713 /* 103-mapWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-mapWhite@2x.png"; sourceTree = "<group>"; };
 		759DFA7D14FADD340045902A /* mapOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapOptionViewController.h; sourceTree = "<group>"; };
 		759DFA7E14FADD340045902A /* mapOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapOptionViewController.m; sourceTree = "<group>"; };
+		75C6FDD2151590AF00EDC6EC /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		75E4EDBE150AB28600A93225 /* navBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBg@2x.png"; sourceTree = "<group>"; };
 		75E4EDC6150AB82B00A93225 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
 		75E4EDC8150AB85D00A93225 /* buttonBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBg@2x.png"; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 		D18E32DD14DDD45600824BA3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7512CF6514F5F78900359035 /* Tiles */,
+				75C6FDD2151590AF00EDC6EC /* Tiles */,
 				D198179814DCDC8D00B2B8EB /* Images */,
 			);
 			name = Resources;
@@ -298,7 +298,6 @@
 				D198177314DCDAB700B2B8EB /* MainStoryboard.storyboard in Resources */,
 				D198179A14DCDC9B00B2B8EB /* iMustangsHomeBG.jpg in Resources */,
 				D19817AF14DCEBF800B2B8EB /* mainBg.jpg in Resources */,
-				7512CF6614F5F78900359035 /* Tiles in Resources */,
 				7548BCE5150987E8000EF713 /* 08-chatWhite@2x.png in Resources */,
 				7548BCEA1509892B000EF713 /* 112-group@2x.png in Resources */,
 				7548BCEB1509892B000EF713 /* 65-note@2x.png in Resources */,
@@ -309,6 +308,7 @@
 				75E4EDC9150AB85D00A93225 /* buttonBg@2x.png in Resources */,
 				750C72CE150BD684009806BA /* MustangsIconSmall.png in Resources */,
 				750C72D0150BD692009806BA /* MustangsIconLarge.png in Resources */,
+				75C6FDD3151590AF00EDC6EC /* Tiles in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
