@@ -7,6 +7,8 @@
 //
 
 #import "MapView.h"
+#import "TileOverlay.h"
+#import "TileOverlayView.h"
 
 @implementation MapView
 
@@ -31,12 +33,15 @@
 
 #pragma mark - View lifecycle
 
-- (void)viewDidLoad
+- (MKOverlayView *)mapView:(MKMapView *)mapView viewForOverlay:(id <MKOverlay>)overlay
 {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
-    self.navigationItem.title = @"Map View";
-    
+    TileOverlayView *view = [[TileOverlayView alloc] initWithOverlay:overlay];
+    view.tileAlpha = 0.6;
+    return [view autorelease];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
     map.mapType = MKMapTypeSatellite;
     MKCoordinateRegion CSC;
     
@@ -48,7 +53,19 @@
     CSC.span.latitudeDelta = .003;
     CSC.span.longitudeDelta = .003;
     [map setRegion:CSC animated:YES];
+    
+    [self.navigationController setNavigationBarHidden:NO animated:animated];
+    [super viewWillAppear:animated];
 }
+
+-(void)viewDidAppear:(BOOL)animated
+{
+    NSString *tileDirectory = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"Tiles"];
+    TileOverlay *overlay = [[TileOverlay alloc] initWithTileDirectory:tileDirectory];
+    
+    [map addOverlay:overlay];
+}
+
 
 - (void)viewDidUnload
 {

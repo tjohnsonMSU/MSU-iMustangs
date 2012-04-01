@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7526D3391527F3A4006B8CA6 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3381527F3A4006B8CA6 /* Tiles */; };
+		7526D3471527F3B2006B8CA6 /* iMustangsHomeBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33B1527F3B2006B8CA6 /* iMustangsHomeBG.jpg */; };
+		7526D3481527F3B2006B8CA6 /* 112-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33C1527F3B2006B8CA6 /* 112-group@2x.png */; };
+		7526D3491527F3B2006B8CA6 /* navBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33D1527F3B2006B8CA6 /* navBg@2x.png */; };
+		7526D34A1527F3B2006B8CA6 /* backButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33E1527F3B2006B8CA6 /* backButton@2x.png */; };
+		7526D34B1527F3B2006B8CA6 /* buttonBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33F1527F3B2006B8CA6 /* buttonBg@2x.png */; };
+		7526D34C1527F3B2006B8CA6 /* MustangsIconLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3401527F3B2006B8CA6 /* MustangsIconLarge.png */; };
+		7526D34D1527F3B2006B8CA6 /* MustangsIconSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3411527F3B2006B8CA6 /* MustangsIconSmall.png */; };
+		7526D34E1527F3B2006B8CA6 /* 65-note@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3421527F3B2006B8CA6 /* 65-note@2x.png */; };
+		7526D34F1527F3B2006B8CA6 /* 83-calendar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3431527F3B2006B8CA6 /* 83-calendar@2x.png */; };
+		7526D3501527F3B2006B8CA6 /* 103-mapWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3441527F3B2006B8CA6 /* 103-mapWhite@2x.png */; };
+		7526D3511527F3B2006B8CA6 /* mainBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3451527F3B2006B8CA6 /* mainBg.jpg */; };
+		7526D3521527F3B2006B8CA6 /* 08-chatWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3461527F3B2006B8CA6 /* 08-chatWhite@2x.png */; };
+		7526D3591527F574006B8CA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7526D3581527F574006B8CA6 /* QuartzCore.framework */; };
+		7526D35A1527F698006B8CA6 /* TileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3551527F407006B8CA6 /* TileOverlay.m */; };
+		7526D35B1527F698006B8CA6 /* TileOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3571527F407006B8CA6 /* TileOverlayView.m */; };
 		D62996F315267C9800F715FE /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62996F115267C9700F715FE /* MapView.m */; };
 		D62996F415267C9800F715FE /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62996F215267C9700F715FE /* MapView.xib */; };
 		D62996F715267D0300F715FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62996F615267D0300F715FE /* MapKit.framework */; };
@@ -31,6 +47,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7526D3381527F3A4006B8CA6 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
+		7526D33B1527F3B2006B8CA6 /* iMustangsHomeBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsHomeBG.jpg; sourceTree = "<group>"; };
+		7526D33C1527F3B2006B8CA6 /* 112-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group@2x.png"; sourceTree = "<group>"; };
+		7526D33D1527F3B2006B8CA6 /* navBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBg@2x.png"; sourceTree = "<group>"; };
+		7526D33E1527F3B2006B8CA6 /* backButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backButton@2x.png"; sourceTree = "<group>"; };
+		7526D33F1527F3B2006B8CA6 /* buttonBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonBg@2x.png"; sourceTree = "<group>"; };
+		7526D3401527F3B2006B8CA6 /* MustangsIconLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MustangsIconLarge.png; sourceTree = "<group>"; };
+		7526D3411527F3B2006B8CA6 /* MustangsIconSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MustangsIconSmall.png; sourceTree = "<group>"; };
+		7526D3421527F3B2006B8CA6 /* 65-note@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "65-note@2x.png"; sourceTree = "<group>"; };
+		7526D3431527F3B2006B8CA6 /* 83-calendar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "83-calendar@2x.png"; sourceTree = "<group>"; };
+		7526D3441527F3B2006B8CA6 /* 103-mapWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-mapWhite@2x.png"; sourceTree = "<group>"; };
+		7526D3451527F3B2006B8CA6 /* mainBg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainBg.jpg; sourceTree = "<group>"; };
+		7526D3461527F3B2006B8CA6 /* 08-chatWhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "08-chatWhite@2x.png"; sourceTree = "<group>"; };
+		7526D3541527F407006B8CA6 /* TileOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileOverlay.h; sourceTree = "<group>"; };
+		7526D3551527F407006B8CA6 /* TileOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileOverlay.m; sourceTree = "<group>"; };
+		7526D3561527F407006B8CA6 /* TileOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileOverlayView.h; sourceTree = "<group>"; };
+		7526D3571527F407006B8CA6 /* TileOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileOverlayView.m; sourceTree = "<group>"; };
+		7526D3581527F574006B8CA6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D62996F015267C9700F715FE /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		D62996F115267C9700F715FE /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		D62996F215267C9700F715FE /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7526D3591527F574006B8CA6 /* QuartzCore.framework in Frameworks */,
 				D62996F715267D0300F715FE /* MapKit.framework in Frameworks */,
 				D6DFA68814E4D39C00A7048D /* EventKit.framework in Frameworks */,
 				D6EFD8A214E0EFE200B944DA /* UIKit.framework in Frameworks */,
@@ -82,6 +117,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7526D3531527F3B8006B8CA6 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7526D33C1527F3B2006B8CA6 /* 112-group@2x.png */,
+				7526D33D1527F3B2006B8CA6 /* navBg@2x.png */,
+				7526D33B1527F3B2006B8CA6 /* iMustangsHomeBG.jpg */,
+				7526D33E1527F3B2006B8CA6 /* backButton@2x.png */,
+				7526D33F1527F3B2006B8CA6 /* buttonBg@2x.png */,
+				7526D3401527F3B2006B8CA6 /* MustangsIconLarge.png */,
+				7526D3411527F3B2006B8CA6 /* MustangsIconSmall.png */,
+				7526D3421527F3B2006B8CA6 /* 65-note@2x.png */,
+				7526D3431527F3B2006B8CA6 /* 83-calendar@2x.png */,
+				7526D3441527F3B2006B8CA6 /* 103-mapWhite@2x.png */,
+				7526D3451527F3B2006B8CA6 /* mainBg.jpg */,
+				7526D3461527F3B2006B8CA6 /* 08-chatWhite@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D65DE3AB14E65ABA007A4352 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +166,10 @@
 				D6EFD8B914E0EFE200B944DA /* MainViewController.m */,
 				D6D9A88F14E53A61003A7345 /* EventListTable.h */,
 				D6D9A89014E53A61003A7345 /* EventListTable.m */,
+				7526D3541527F407006B8CA6 /* TileOverlay.h */,
+				7526D3551527F407006B8CA6 /* TileOverlay.m */,
+				7526D3561527F407006B8CA6 /* TileOverlayView.h */,
+				7526D3571527F407006B8CA6 /* TileOverlayView.m */,
 				D6DFA68214E4CD0C00A7048D /* EventDetailView.h */,
 				D6DFA68314E4CD0C00A7048D /* EventDetailView.m */,
 				D6468E6E14EAEF8B00560319 /* SearchViewController.h */,
@@ -127,6 +185,7 @@
 		D6EFD89214E0EFE200B944DA = {
 			isa = PBXGroup;
 			children = (
+				7526D3581527F574006B8CA6 /* QuartzCore.framework */,
 				D6EFD8A914E0EFE200B944DA /* iMustangsEventsV01 */,
 				D6EFD8A014E0EFE200B944DA /* Frameworks */,
 				D6EFD89E14E0EFE200B944DA /* Products */,
@@ -157,6 +216,8 @@
 		D6EFD8A914E0EFE200B944DA /* iMustangsEventsV01 */ = {
 			isa = PBXGroup;
 			children = (
+				7526D3531527F3B8006B8CA6 /* Images */,
+				7526D3381527F3A4006B8CA6 /* Tiles */,
 				D65DE3AB14E65ABA007A4352 /* Model */,
 				D65DE3AC14E65AD8007A4352 /* View */,
 				D65DE3AD14E65AF0007A4352 /* Control */,
@@ -231,6 +292,19 @@
 				D6DFA68614E4CD0C00A7048D /* EventDetailView.xib in Resources */,
 				D62996F415267C9800F715FE /* MapView.xib in Resources */,
 				D62997001527A75B00F715FE /* FeatureReqView.xib in Resources */,
+				7526D3391527F3A4006B8CA6 /* Tiles in Resources */,
+				7526D3471527F3B2006B8CA6 /* iMustangsHomeBG.jpg in Resources */,
+				7526D3481527F3B2006B8CA6 /* 112-group@2x.png in Resources */,
+				7526D3491527F3B2006B8CA6 /* navBg@2x.png in Resources */,
+				7526D34A1527F3B2006B8CA6 /* backButton@2x.png in Resources */,
+				7526D34B1527F3B2006B8CA6 /* buttonBg@2x.png in Resources */,
+				7526D34C1527F3B2006B8CA6 /* MustangsIconLarge.png in Resources */,
+				7526D34D1527F3B2006B8CA6 /* MustangsIconSmall.png in Resources */,
+				7526D34E1527F3B2006B8CA6 /* 65-note@2x.png in Resources */,
+				7526D34F1527F3B2006B8CA6 /* 83-calendar@2x.png in Resources */,
+				7526D3501527F3B2006B8CA6 /* 103-mapWhite@2x.png in Resources */,
+				7526D3511527F3B2006B8CA6 /* mainBg.jpg in Resources */,
+				7526D3521527F3B2006B8CA6 /* 08-chatWhite@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7526D35A1527F698006B8CA6 /* TileOverlay.m in Sources */,
+				7526D35B1527F698006B8CA6 /* TileOverlayView.m in Sources */,
 				D6EFD8B014E0EFE200B944DA /* main.m in Sources */,
 				D6EFD8B414E0EFE200B944DA /* AppDelegate.m in Sources */,
 				D6EFD8B714E0EFE200B944DA /* iMustangsEventsV01.xcdatamodeld in Sources */,
@@ -281,7 +357,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -306,7 +382,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
