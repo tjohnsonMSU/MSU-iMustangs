@@ -40,6 +40,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *mapButton;
 @property (strong, nonatomic) IBOutlet UIButton *eventsButton;
 @property (strong, nonatomic) IBOutlet UIButton *featureReqButton;
+@property (strong, nonatomic) IBOutlet UIButton *bandButton;
+@property (strong, nonatomic) IBOutlet UIButton *developerButton;
 @property (nonatomic, strong) NSURLConnection *eventFeedConnection;
 @property (nonatomic, strong) NSMutableData *eventData; // The data returned from the NSURLConnection
 @property (nonatomic, strong) IBOutlet UIActivityIndicatorView *spinner;
@@ -50,5 +52,7 @@
 - (IBAction)eventsButtonPressed:(id)sender;
 - (IBAction)mapButtonPressed:(id)sender;
 - (IBAction)featureReqPressed:(id)sender;
+- (IBAction)bandButtonPressed:(id)sender;
+- (IBAction)developerButtonPressed:(id)sender;
 
 @end

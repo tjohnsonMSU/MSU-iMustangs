@@ -21,9 +21,15 @@
 		7526D3511527F3B2006B8CA6 /* mainBg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3451527F3B2006B8CA6 /* mainBg.jpg */; };
 		7526D3521527F3B2006B8CA6 /* 08-chatWhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3461527F3B2006B8CA6 /* 08-chatWhite@2x.png */; };
 		7526D3591527F574006B8CA6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7526D3581527F574006B8CA6 /* QuartzCore.framework */; };
-		7526D35A1527F698006B8CA6 /* TileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3551527F407006B8CA6 /* TileOverlay.m */; };
-		7526D35B1527F698006B8CA6 /* TileOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3571527F407006B8CA6 /* TileOverlayView.m */; };
-		D62996F315267C9800F715FE /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62996F115267C9700F715FE /* MapView.m */; };
+		7526D35A1527F698006B8CA6 /* TileOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3551527F407006B8CA6 /* TileOverlay.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7526D35B1527F698006B8CA6 /* TileOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7526D3571527F407006B8CA6 /* TileOverlayView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7585D2FF152EB712008258B3 /* bandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585D2FD152EB712008258B3 /* bandViewController.m */; };
+		7585D300152EB712008258B3 /* bandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7585D2FE152EB712008258B3 /* bandViewController.xib */; };
+		7585D304152EB72C008258B3 /* developerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585D302152EB72C008258B3 /* developerViewController.m */; };
+		7585D305152EB72C008258B3 /* developerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7585D303152EB72C008258B3 /* developerViewController.xib */; };
+		7585D30D152EB822008258B3 /* mapOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585D30B152EB822008258B3 /* mapOptionViewController.m */; };
+		7585D30E152EB822008258B3 /* mapOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7585D30C152EB822008258B3 /* mapOptionViewController.xib */; };
+		D62996F315267C9800F715FE /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62996F115267C9700F715FE /* MapView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D62996F415267C9800F715FE /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62996F215267C9700F715FE /* MapView.xib */; };
 		D62996F715267D0300F715FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62996F615267D0300F715FE /* MapKit.framework */; };
 		D62996FF1527A75B00F715FE /* FeatureReqView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62996FD1527A75B00F715FE /* FeatureReqView.m */; };
@@ -65,6 +71,15 @@
 		7526D3561527F407006B8CA6 /* TileOverlayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TileOverlayView.h; sourceTree = "<group>"; };
 		7526D3571527F407006B8CA6 /* TileOverlayView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TileOverlayView.m; sourceTree = "<group>"; };
 		7526D3581527F574006B8CA6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7585D2FC152EB712008258B3 /* bandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bandViewController.h; sourceTree = "<group>"; };
+		7585D2FD152EB712008258B3 /* bandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bandViewController.m; sourceTree = "<group>"; };
+		7585D2FE152EB712008258B3 /* bandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = bandViewController.xib; sourceTree = "<group>"; };
+		7585D301152EB72C008258B3 /* developerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = developerViewController.h; sourceTree = "<group>"; };
+		7585D302152EB72C008258B3 /* developerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = developerViewController.m; sourceTree = "<group>"; };
+		7585D303152EB72C008258B3 /* developerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = developerViewController.xib; sourceTree = "<group>"; };
+		7585D30A152EB822008258B3 /* mapOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapOptionViewController.h; sourceTree = "<group>"; };
+		7585D30B152EB822008258B3 /* mapOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapOptionViewController.m; sourceTree = "<group>"; };
+		7585D30C152EB822008258B3 /* mapOptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapOptionViewController.xib; sourceTree = "<group>"; };
 		D62996F015267C9700F715FE /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		D62996F115267C9700F715FE /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		D62996F215267C9700F715FE /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -149,6 +164,9 @@
 		D65DE3AC14E65AD8007A4352 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7585D30C152EB822008258B3 /* mapOptionViewController.xib */,
+				7585D303152EB72C008258B3 /* developerViewController.xib */,
+				7585D2FE152EB712008258B3 /* bandViewController.xib */,
 				D6EFD8BE14E0EFE200B944DA /* MainViewController.xib */,
 				D6DFA68414E4CD0C00A7048D /* EventDetailView.xib */,
 				D62996F215267C9700F715FE /* MapView.xib */,
@@ -178,6 +196,12 @@
 				D62996F115267C9700F715FE /* MapView.m */,
 				D62996FC1527A75B00F715FE /* FeatureReqView.h */,
 				D62996FD1527A75B00F715FE /* FeatureReqView.m */,
+				7585D2FC152EB712008258B3 /* bandViewController.h */,
+				7585D2FD152EB712008258B3 /* bandViewController.m */,
+				7585D301152EB72C008258B3 /* developerViewController.h */,
+				7585D302152EB72C008258B3 /* developerViewController.m */,
+				7585D30A152EB822008258B3 /* mapOptionViewController.h */,
+				7585D30B152EB822008258B3 /* mapOptionViewController.m */,
 			);
 			name = Control;
 			sourceTree = "<group>";
@@ -185,7 +209,6 @@
 		D6EFD89214E0EFE200B944DA = {
 			isa = PBXGroup;
 			children = (
-				7526D3581527F574006B8CA6 /* QuartzCore.framework */,
 				D6EFD8A914E0EFE200B944DA /* iMustangsEventsV01 */,
 				D6EFD8A014E0EFE200B944DA /* Frameworks */,
 				D6EFD89E14E0EFE200B944DA /* Products */,
@@ -203,6 +226,7 @@
 		D6EFD8A014E0EFE200B944DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7526D3581527F574006B8CA6 /* QuartzCore.framework */,
 				D62996F615267D0300F715FE /* MapKit.framework */,
 				D6DFA68714E4D39C00A7048D /* EventKit.framework */,
 				D6EFD8A114E0EFE200B944DA /* UIKit.framework */,
@@ -305,6 +329,9 @@
 				7526D3501527F3B2006B8CA6 /* 103-mapWhite@2x.png in Resources */,
 				7526D3511527F3B2006B8CA6 /* mainBg.jpg in Resources */,
 				7526D3521527F3B2006B8CA6 /* 08-chatWhite@2x.png in Resources */,
+				7585D300152EB712008258B3 /* bandViewController.xib in Resources */,
+				7585D305152EB72C008258B3 /* developerViewController.xib in Resources */,
+				7585D30E152EB822008258B3 /* mapOptionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +354,9 @@
 				D6468E7114EAEF8B00560319 /* SearchViewController.m in Sources */,
 				D62996F315267C9800F715FE /* MapView.m in Sources */,
 				D62996FF1527A75B00F715FE /* FeatureReqView.m in Sources */,
+				7585D2FF152EB712008258B3 /* bandViewController.m in Sources */,
+				7585D304152EB72C008258B3 /* developerViewController.m in Sources */,
+				7585D30D152EB822008258B3 /* mapOptionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +387,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -382,7 +412,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;

@@ -11,6 +11,8 @@
 #import "EventListTable.h"
 #import "MapView.h"
 #import "FeatureReqView.h"
+#import "bandViewController.h"
+#import "developerViewController.h"
 
 // this framework was imported so we could use the kCFURLErrorNotConnectedToInternet error code
 #import <CFNetwork/CFNetwork.h>
@@ -36,6 +38,8 @@
 @synthesize eventsButton;
 @synthesize mapButton;
 @synthesize featureReqButton;
+@synthesize bandButton;
+@synthesize developerButton;
 @synthesize spinner;
 @synthesize loadingEventDataLabel;
 @synthesize loadingEventDataButton;
@@ -100,6 +104,18 @@
     [self.navigationController pushViewController:featureReqView animated:YES];
 }
 
+- (IBAction)bandButtonPressed:(id)sender {
+    bandViewController *bandView = [[bandViewController alloc] initWithNibName:@"bandViewController" bundle:nil];
+    [self.navigationController pushViewController:bandView animated:YES];
+}
+
+- (IBAction)developerButtonPressed:(id)sender {
+    developerViewController *developerView = [[developerViewController alloc] initWithNibName:@"developerViewController" bundle:nil];
+    [self.navigationController pushViewController:developerView animated:YES];
+}
+
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -116,6 +132,9 @@
 
 - (void)viewDidUnload
 {
+    [self setBandButton:nil];
+    [self setBandButton:nil];
+    [self setDeveloperButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

@@ -9,10 +9,12 @@
 #import "MapView.h"
 #import "TileOverlay.h"
 #import "TileOverlayView.h"
+#import "mapOptionViewController.h"
 
 @implementation MapView
 
 @synthesize navFromView;
+@synthesize mapOptionButton;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -69,6 +71,7 @@
 
 - (void)viewDidUnload
 {
+    [self setMapOptionButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -80,4 +83,10 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+- (IBAction)mapOptionButtonPressed:(id)sender {
+    mapOptionViewController *mapOptions = [[mapOptionViewController alloc] initWithNibName:@"mapOptionViewController" bundle:nil];
+    mapOptions.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    [self presentModalViewController:mapOptions animated:YES];
+    
+}
 @end
