@@ -29,6 +29,8 @@
 		7585D305152EB72C008258B3 /* developerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7585D303152EB72C008258B3 /* developerViewController.xib */; };
 		7585D30D152EB822008258B3 /* mapOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7585D30B152EB822008258B3 /* mapOptionViewController.m */; };
 		7585D30E152EB822008258B3 /* mapOptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7585D30C152EB822008258B3 /* mapOptionViewController.xib */; };
+		75A310BD1530332700CC6ACB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A310BC1530332700CC6ACB /* CoreLocation.framework */; };
+		75A310C41530384D00CC6ACB /* MyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A310C3153035BE00CC6ACB /* MyAnnotation.m */; };
 		D62996F315267C9800F715FE /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D62996F115267C9700F715FE /* MapView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D62996F415267C9800F715FE /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D62996F215267C9700F715FE /* MapView.xib */; };
 		D62996F715267D0300F715FE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62996F615267D0300F715FE /* MapKit.framework */; };
@@ -80,6 +82,9 @@
 		7585D30A152EB822008258B3 /* mapOptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mapOptionViewController.h; sourceTree = "<group>"; };
 		7585D30B152EB822008258B3 /* mapOptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mapOptionViewController.m; sourceTree = "<group>"; };
 		7585D30C152EB822008258B3 /* mapOptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mapOptionViewController.xib; sourceTree = "<group>"; };
+		75A310BC1530332700CC6ACB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		75A310C2153035BD00CC6ACB /* MyAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAnnotation.h; sourceTree = "<group>"; };
+		75A310C3153035BE00CC6ACB /* MyAnnotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAnnotation.m; sourceTree = "<group>"; };
 		D62996F015267C9700F715FE /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
 		D62996F115267C9700F715FE /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
 		D62996F215267C9700F715FE /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
@@ -119,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A310BD1530332700CC6ACB /* CoreLocation.framework in Frameworks */,
 				7526D3591527F574006B8CA6 /* QuartzCore.framework in Frameworks */,
 				D62996F715267D0300F715FE /* MapKit.framework in Frameworks */,
 				D6DFA68814E4D39C00A7048D /* EventKit.framework in Frameworks */,
@@ -190,6 +196,8 @@
 				7526D3571527F407006B8CA6 /* TileOverlayView.m */,
 				D6DFA68214E4CD0C00A7048D /* EventDetailView.h */,
 				D6DFA68314E4CD0C00A7048D /* EventDetailView.m */,
+				75A310C2153035BD00CC6ACB /* MyAnnotation.h */,
+				75A310C3153035BE00CC6ACB /* MyAnnotation.m */,
 				D6468E6E14EAEF8B00560319 /* SearchViewController.h */,
 				D6468E6F14EAEF8B00560319 /* SearchViewController.m */,
 				D62996F015267C9700F715FE /* MapView.h */,
@@ -226,6 +234,7 @@
 		D6EFD8A014E0EFE200B944DA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				75A310BC1530332700CC6ACB /* CoreLocation.framework */,
 				7526D3581527F574006B8CA6 /* QuartzCore.framework */,
 				D62996F615267D0300F715FE /* MapKit.framework */,
 				D6DFA68714E4D39C00A7048D /* EventKit.framework */,
@@ -342,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A310C41530384D00CC6ACB /* MyAnnotation.m in Sources */,
 				7526D35A1527F698006B8CA6 /* TileOverlay.m in Sources */,
 				7526D35B1527F698006B8CA6 /* TileOverlayView.m in Sources */,
 				D6EFD8B014E0EFE200B944DA /* main.m in Sources */,

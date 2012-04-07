@@ -15,6 +15,7 @@
     NSMutableString *navFromView;
 }
 
+
 @property (nonatomic, strong) NSMutableString *navFromView;
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *mapOptionButton;
 - (IBAction)mapOptionButtonPressed:(id)sender;

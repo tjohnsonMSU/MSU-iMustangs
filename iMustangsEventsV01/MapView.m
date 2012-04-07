@@ -10,6 +10,9 @@
 #import "TileOverlay.h"
 #import "TileOverlayView.h"
 #import "mapOptionViewController.h"
+#import "CoreLocation/CoreLocation.h"
+#import "MyAnnotation.h"
+
 
 @implementation MapView
 
@@ -68,6 +71,70 @@
     [map addOverlay:overlay];
 }
 
+- (void) viewDidLoad
+{
+    CLLocation *userLoc = map.userLocation.location;
+    CLLocationCoordinate2D userCoordinate = userLoc.coordinate;
+	
+	NSLog(@"user latitude = %f",userCoordinate.latitude);
+	NSLog(@"user longitude = %f",userCoordinate.longitude);
+	
+	map.delegate=self;
+	
+	NSMutableArray* annotations=[[NSMutableArray alloc] init];
+	
+	CLLocationCoordinate2D theCoordinate1;
+    theCoordinate1.latitude = 37.786996;
+    theCoordinate1.longitude = -122.419281;
+	
+	CLLocationCoordinate2D theCoordinate2;
+    theCoordinate2.latitude = 37.810000;
+    theCoordinate2.longitude = -122.477989;
+	
+	CLLocationCoordinate2D theCoordinate3;
+    theCoordinate3.latitude = 37.760000;
+    theCoordinate3.longitude = -122.447989;
+	
+	CLLocationCoordinate2D theCoordinate4;
+    theCoordinate4.latitude = 37.80000;
+    theCoordinate4.longitude = -122.407989;
+	
+	MyAnnotation* myAnnotation1=[[MyAnnotation alloc] init];
+    
+	myAnnotation1.coordinate=theCoordinate1;
+	myAnnotation1.title=@"Rohan";
+	myAnnotation1.subtitle=@"in the city";
+	
+	MyAnnotation* myAnnotation2=[[MyAnnotation alloc] init];
+	
+	myAnnotation2.coordinate=theCoordinate2;
+	myAnnotation2.title=@"Vaibhav";
+	myAnnotation2.subtitle=@"on a Bridge";
+	
+	MyAnnotation* myAnnotation3=[[MyAnnotation alloc] init];
+	
+	myAnnotation3.coordinate=theCoordinate3;
+	myAnnotation3.title=@"Rituraaj";
+	myAnnotation3.subtitle=@"in the forest";
+	
+	MyAnnotation* myAnnotation4=[[MyAnnotation alloc] init];
+	
+	myAnnotation4.coordinate=theCoordinate4;
+	myAnnotation4.title=@"Amit";
+	myAnnotation4.subtitle=@"at Russian Hill";
+	
+	[map addAnnotation:myAnnotation1];
+	[map addAnnotation:myAnnotation2];
+	[map addAnnotation:myAnnotation3];
+	[map addAnnotation:myAnnotation4];
+	
+	[annotations addObject:myAnnotation1];
+	[annotations addObject:myAnnotation2];
+	[annotations addObject:myAnnotation3];
+	[annotations addObject:myAnnotation4];
+	
+
+}
 
 - (void)viewDidUnload
 {
