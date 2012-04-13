@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		751F957A1537D4F4000FCC24 /* MustangsIcon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 751F95791537D4F4000FCC24 /* MustangsIcon1.png */; };
+		751F957D1537D4F6000FCC24 /* MustangsIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 751F957C1537D4F6000FCC24 /* MustangsIcon2.png */; };
 		7526D3391527F3A4006B8CA6 /* Tiles in Resources */ = {isa = PBXBuildFile; fileRef = 7526D3381527F3A4006B8CA6 /* Tiles */; };
 		7526D3471527F3B2006B8CA6 /* iMustangsHomeBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33B1527F3B2006B8CA6 /* iMustangsHomeBG.jpg */; };
 		7526D3481527F3B2006B8CA6 /* 112-group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7526D33C1527F3B2006B8CA6 /* 112-group@2x.png */; };
@@ -55,6 +57,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		751F95791537D4F4000FCC24 /* MustangsIcon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MustangsIcon1.png; sourceTree = "<group>"; };
+		751F957C1537D4F6000FCC24 /* MustangsIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MustangsIcon2.png; sourceTree = "<group>"; };
 		7526D3381527F3A4006B8CA6 /* Tiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Tiles; sourceTree = "<group>"; };
 		7526D33B1527F3B2006B8CA6 /* iMustangsHomeBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iMustangsHomeBG.jpg; sourceTree = "<group>"; };
 		7526D33C1527F3B2006B8CA6 /* 112-group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group@2x.png"; sourceTree = "<group>"; };
@@ -217,6 +221,8 @@
 		D6EFD89214E0EFE200B944DA = {
 			isa = PBXGroup;
 			children = (
+				751F957C1537D4F6000FCC24 /* MustangsIcon2.png */,
+				751F95791537D4F4000FCC24 /* MustangsIcon1.png */,
 				D6EFD8A914E0EFE200B944DA /* iMustangsEventsV01 */,
 				D6EFD8A014E0EFE200B944DA /* Frameworks */,
 				D6EFD89E14E0EFE200B944DA /* Products */,
@@ -341,6 +347,8 @@
 				7585D300152EB712008258B3 /* bandViewController.xib in Resources */,
 				7585D305152EB72C008258B3 /* developerViewController.xib in Resources */,
 				7585D30E152EB822008258B3 /* mapOptionViewController.xib in Resources */,
+				751F957A1537D4F4000FCC24 /* MustangsIcon1.png in Resources */,
+				751F957D1537D4F6000FCC24 /* MustangsIcon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
